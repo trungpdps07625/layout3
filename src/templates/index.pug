@@ -1,0 +1,87 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home_slider.pb-5.img-fluid
+		.owl-carousel.owl-theme
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là Front-End Việt Nam
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam enim voluptate voluptatem earum veritatis est eum magnam sit in ab aut, quis placeat voluptas minima saepe quasi error illum!
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là Front-End Việt Nam
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam enim voluptate voluptatem earum veritatis est eum magnam sit in ab aut, quis placeat voluptas minima saepe quasi error illum!
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là Front-End Việt Nam
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam enim voluptate voluptatem earum veritatis est eum magnam sit in ab aut, quis placeat voluptas minima saepe quasi error illum!
+	section.home_news
+		.container.img-fluid
+			.row.title_news.pb-5.pt-4
+				.col.text-center
+					h1 Front-End
+						span  Chuyên Nghiệp
+			.row
+				.col-md-4.item
+					figure
+						.blockimg
+							.eyes
+								i.fa.fa-eye
+							img(src="./img/home_news_1.jpg", alt="")
+						figcaption
+							h3 Trung tâm đào tạo IT chuyên nghiệp
+							time 22/06/2018
+							p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, pariatur. Expedita exercitationem cupiditate laboriosam nesciunt? Impedit, voluptate qui, deleniti tempore repellendus voluptatem facere, quo iure sed officiis cumque quod dicta?
+				.col-md-4.item
+					figure
+						.blockimg
+							.eyes
+								i.fa.fa-eye
+							img(src="./img/home_news_2.jpg", alt="")
+						figcaption
+							h3 Trung tâm đào tạo IT chuyên nghiệp
+							time 22/06/2018
+							p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, pariatur. Expedita exercitationem cupiditate laboriosam nesciunt? Impedit, voluptate qui, deleniti tempore repellendus voluptatem facere, quo iure sed officiis cumque quod dicta?
+				.col-md-4.item
+					figure
+						.blockimg
+							.eyes
+								i.fa.fa-eye
+							img(src="./img/home_news_3.jpg", alt="")
+						figcaption
+							h3 Trung tâm đào tạo IT chuyên nghiệp
+							time 22/06/2018
+							p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, pariatur. Expedita exercitationem cupiditate laboriosam nesciunt? Impedit, voluptate qui, deleniti tempore repellendus voluptatem facere, quo iure sed officiis cumque quod dicta?
+	section.home_clients.pt-5
+		.container
+			.row
+				.owl-carousel.owl-theme
+					.item
+						img(src="./img/clients_1.png", alt="")
+					.item
+						img(src="./img/clients_2.png", alt="")
+					.item
+						img(src="./img/clients_3.png", alt="")
+					.item
+						img(src="./img/clients_4.png", alt="")
+					.item
+						img(src="./img/clients_5.png", alt="")
+					.item
+						img(src="./img/clients_6.png", alt="")
